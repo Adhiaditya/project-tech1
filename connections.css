@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 530vh;
+    width: 94vw;
+    background-image: url(background.jpg);
+    background-position: left;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    
+
+}
+.profile{
+    width: 48px;
+    cursor: pointer; 
+      
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0px 17px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s ease;
+}
+.primary-button{
+    background-color:#87adfe;
+    border-radius: 85px;
+    font-weight: 400;
+    color: #fff ;
+    padding: 12px 18px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.2s ease-out;
+
+
+}
+.primary-button:hover{
+    background-color:whitesmoke;
+
+}
+.secondary-button{
+    border: 0.5px solid #232d60;
+    border-radius: 85px;
+    font-weight: 400;
+    padding: 12px 18px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border: 0.5px solid #87adfe ;
+    background-color: #87adfe;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(92, 58, 131);
+}
+
+.searchbar{
+    padding: 12px;
+    position: absolute;
+    left: 350px;
+    width: 580px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 12px ;
+    
+}
+.search{
+    padding: 12px;
+    position: absolute;
+    right: 400px;
+    color: #2a2a2a;
+    background:#DDC8Af;
+    transition: all 0.5s ease;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius:  12px;
+}
+.search:hover{
+    background: #808fdb;
+    color:#fff
+}
+
+/* cointer code*/
+.containerr{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 120px;
+    
+}
+.headerr{
+    width: 100%;
+    text-align: center;
+    
+}
+.headerr h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #24262b;
+    padding-top: 100px;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.product{
+    position: relative;
+    background-color: #fff;
+    width: 220px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.imgg{
+    padding: 0;
+    width: 96%;
+    height: 30vh;
+    margin-left: 5px;
+    
+
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.namePrice h3{
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #24262b;
+    
+}
+p{
+    color: #878fa1;
+    font-size: 12px;
+    margin-top: -20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    padding-bottom: 21px;
+}
+.buyy{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.buyy button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #DDC8Af ;
+    color: #24262b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.buyy button:hover{
+    background: #808fdb;
+    color:#fff;
+}
