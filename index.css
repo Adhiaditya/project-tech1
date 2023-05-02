@@ -274,6 +274,10 @@ nav ul li a:hover{
     background: linear-gradient(45deg,  #ff77cd,#87adfe);
     transform: scale(1.2);
 }
+.content2 .btn1:hover{
+    background: linear-gradient(45deg,  #ff77cd,#87adfe);
+    transform: scale(1.2);
+}
 .sideimage3{
     filter: drop-shadow(8px 8px 10px rgb(31, 29, 29));
     height: 16%;
