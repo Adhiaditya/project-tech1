@@ -1,4 +1,5 @@
 /*Nav bar code*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 *{
   margin:0;
   padding: 0;
@@ -126,7 +127,7 @@ nav ul li a:hover{
 
 }
 .col p{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Kalam', cursive;
   font-size: 18px;
   color: #6a7199;
 }
@@ -175,4 +176,12 @@ nav ul li a:hover{
 .btn .btn1:hover{
   background: linear-gradient(45deg,  #ff77cd,#87adfe);
   transform: scale(1.1);
+}
+@media only screen and (max-width: 1440px){
+  nav ul li{
+      margin:0px 11px;
+  }
+  .container{
+    height: 350vh;
+  }
 }
