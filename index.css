@@ -350,3 +350,59 @@ nav ul li a:hover{
     font-size: 14px;
 
 }
+@media only screen and (max-width: 1440px){
+    nav ul li{
+        margin:0px 15px;
+    }
+    .sideimage{
+        bottom:1900px ;
+        height: 15%;
+        right: -40px;
+    }
+    .container{
+        height: 400vh;
+    }
+    .content1 h1{
+        right: 220px;
+    }
+    .content1 p{
+        top: 140px;
+        position: relative;
+        left: 530px;
+        font-size: 17px;
+        
+        
+    }
+    .sideimage1{
+        height: 16%;
+        bottom: 1350px;
+    }
+    .content1 .btn1{
+        right: 500px;
+        margin-top: 180px;
+    }
+    .content2 h1{
+        top: 1300px;
+    }
+    .sideimage2{
+        height: 12%;
+        bottom:800px;
+    }
+    .sideimage3{
+        height: 14%;
+        bottom: 180px;
+    }
+    .content3 h1{
+        top: 1900px;
+    }
+    .content3 p{
+        top: 130px;
+        font-size: 17px;
+        left: 520px;
+    }
+    .content3 .btn1{
+        right: 520px;
+        margin-top: 180px;
+    }
+}
+
