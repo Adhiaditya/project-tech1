@@ -355,9 +355,9 @@ nav ul li a:hover{
         margin:0px 15px;
     }
     .sideimage{
-        bottom:1900px ;
-        height: 15%;
-        right: -40px;
+        bottom:2000px ;
+        height: 14%;
+        right: -50px;
     }
     .container{
         height: 400vh;
@@ -374,8 +374,8 @@ nav ul li a:hover{
         
     }
     .sideimage1{
-        height: 16%;
-        bottom: 1350px;
+        height: 15%;
+        bottom: 1450px;
     }
     .content1 .btn1{
         right: 500px;
@@ -386,11 +386,11 @@ nav ul li a:hover{
     }
     .sideimage2{
         height: 12%;
-        bottom:800px;
+        bottom:900px;
     }
     .sideimage3{
-        height: 14%;
-        bottom: 180px;
+        height: 13%;
+        bottom: 300px;
     }
     .content3 h1{
         top: 1900px;
