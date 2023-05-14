@@ -209,15 +209,6 @@ transform: scale(1.2);
   margin-top: 10px;
   color: #fff;
 }
-@media only screen and (max-width: 1440px){
-  nav ul li{
-      margin:0px 11px;
-  }
-  .chatimage{
-    height: 6%;
-  }
-}
-
 
 
  

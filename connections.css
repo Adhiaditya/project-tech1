@@ -205,22 +205,3 @@ p{
     background: #808fdb;
     color:#fff;
 }
-@media only screen and (max-width: 1440px){
-    nav ul li{
-        margin:0px 11px;
-    }
-    .product{
-        width: 180px;
-        height: 96%;
-    }
-    .container{
-        height: 550vh;
-    }
-    .logo{
-        margin-left: -60px;
-    }
-    .searchbar{
-        left: 200px;
-        width: 500px;
-    }
-}

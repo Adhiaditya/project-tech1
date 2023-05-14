@@ -153,8 +153,3 @@ nav ul li a:hover{
     font-size: 14px;
 
 }
-@media only screen and (max-width: 1440px){
-    nav ul li{
-        margin:0px 15px;
-    }
-}

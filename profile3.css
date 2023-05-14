@@ -217,8 +217,3 @@ nav ul li a:hover{
     background-color: white;
     border-radius: 30px;
 }
-@media only screen and (max-width: 1440px){
-    nav ul li{
-        margin:0px 11px;
-    }
-}

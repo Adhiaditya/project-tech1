@@ -270,8 +270,3 @@ button.ghost:hover{
 .container.right-panel-active .overlay{
     transform: translateX(50%);
 }
-@media only screen and (max-width: 1440px){
-    nav ul li{
-        margin:0px 15px;
-    }
-}

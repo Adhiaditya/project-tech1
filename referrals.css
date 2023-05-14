@@ -161,15 +161,4 @@ nav ul li a:hover{
     color:#232d60;
     background-color: #ffffff;
     
-}@media only screen and (max-width: 1440px){
-    nav ul li{
-        margin:0px 11px;
-    }
-    .referal-box .btn1{
-        right: 600px;
-        top: 471px;
-    }
-    .referal-box h1{
-        right: 200px;
-    }
 }
