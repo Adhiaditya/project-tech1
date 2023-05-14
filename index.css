@@ -375,6 +375,7 @@ nav ul li a:hover{
     }
     .sideimage1{
         height: 15%;
+        left: 30px;
         bottom: 1450px;
     }
     .content1 .btn1{
@@ -386,6 +387,7 @@ nav ul li a:hover{
     }
     .sideimage2{
         height: 12%;
+        right: 70px;
         bottom:900px;
     }
     .sideimage3{
