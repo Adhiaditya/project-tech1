@@ -83,7 +83,7 @@ nav ul li a:hover{
     color: rgb(92, 58, 131);
 }
 .content h1{
-    font-family: 'Kalam', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 60px;
     font-weight: 500;
    /* margin-top: 24px;*/
@@ -92,7 +92,7 @@ nav ul li a:hover{
 
 }
 .content p{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
     font-size: 18px;
     color: #6a7199;
     
